@@ -1,0 +1,126 @@
+.experience {
+  z-index: 30;
+  margin-top: -5px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: chocolate;
+}
+
+.experience::before {
+  content: "";
+  position: absolute;
+  top: -35%;
+  left: 50%;
+  transform: translate(0, 50%) rotate(45deg);
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.experience-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+.experience-page h3 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.experience__detail {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.experience__text {
+  display: flex;
+  flex-basis: 45%;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.experience__text h4 {
+  font-size: 33px;
+  font-family: "Grenze Gotisch", cursive;
+  font-weight: 400;
+  color: white;
+}
+
+.experience__text h5 {
+  font-size: 22px;
+  font-family: "Grenze Gotisch", cursive;
+  font-weight: 400;
+  color: white;
+}
+.experience__text p {
+  font-size: 19px;
+  padding: 5px 10px;
+  line-height: 30px;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .experience::before {
+    content: "";
+    position: absolute;
+    top: -35%;
+    left: 50%;
+    transform: translate(0, 50%) rotate(45deg);
+    z-index: 100;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+  }
+
+  .experience__detail {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .experience__text {
+    flex-basis: 100%;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .experience {
+    margin-top: 0;
+  }
+
+  .experience-page {
+    margin-left: 0;
+  }
+  .experience__detail {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .experience__text {
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .experience-page h3 {
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+}

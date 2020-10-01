@@ -1,0 +1,306 @@
+.skills-section {
+  /* min-height: 100vh; */
+  background-color: #f2bf6c;
+  position: relative;
+}
+
+.skills-section::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  background-color: chocolate;
+  margin-top: -70px;
+  transform: rotate(45deg);
+  left: 50%;
+}
+.skills-section::after {
+  content: "";
+  position: absolute;
+  bottom: -6%;
+  margin-bottom: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #f2bf6c;
+  right: 50%;
+  z-index: 10;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-header h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 60px;
+  text-align: center;
+  transform: translateX(50%);
+  color: white;
+}
+
+.skills-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.skills-content {
+  flex-basis: 30%;
+  padding: 10px 3px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid green;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  transition: 0.2s cubic-bezier(100%, 0.5, 2);
+}
+
+.skills-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  position: relative;
+  color: white;
+}
+
+.skills-icon span {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.Skills-text {
+  width: 80%;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.Skills-text h4 {
+  font-size: 25px;
+}
+.skills-content:hover {
+  background-color: green;
+  border: none;
+}
+
+.skills-content:hover .skills-icon {
+  background-color: white;
+  color: green;
+}
+
+.skills-content:hover .Skills-text {
+  color: white;
+}
+.skills-content .skills-tools {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  bottom: 0;
+  transform: translateY(500%);
+  transition: 0.5s linear;
+  z-index: 500;
+}
+.skills-tools p {
+  font-weight: 500;
+  text-align: center;
+}
+
+.skills-tools h5 {
+  font-size: 25px;
+}
+
+.skills-content:hover .skills-tools {
+  transform: translateY(0);
+  position: relative;
+  color: white;
+}
+
+.skills-classification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 500;
+}
+.front-end,
+.back-end {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.front-end p,
+.back-end p {
+  font-weight: 500;
+}
+
+.skills__data_lang {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+}
+
+.skills__lang_frontend,
+.skills__lang_backend {
+  display: flex;
+  flex-basis: 45%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  z-index: 500;
+}
+
+.skills__lang_frontend h4,
+.skills__lang_backend h4 {
+  font-size: 26px;
+  font-family: Roboto, san serif;
+  font-style: oblique;
+  text-align: center;
+}
+
+.skills__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.skills__items h4 {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.skills__line {
+  position: relative;
+  width: 100%;
+  margin-top: 2px;
+
+  height: 10px;
+  border-radius: 20px;
+  background-color: grey;
+}
+
+.skills__data {
+  position: absolute;
+  height: 10px;
+  border-radius: 20px;
+  top: 0;
+  background-color: green;
+  z-index: 500;
+}
+.skills__data.python {
+  width: 90%;
+}
+
+.skills__data.java {
+  width: 50%;
+}
+
+.skills__data.javaScript {
+  width: 80%;
+}
+
+.skills__data.golang {
+  width: 35%;
+}
+
+.skills__data.react {
+  width: 85%;
+}
+.skills__data.vue {
+  width: 60%;
+}
+.skills__data.react-native {
+  width: 50%;
+}
+.skills__data.css {
+  width: 95%;
+}
+
+@media only screen and (max-width: 700px) {
+  .skills-section {
+    z-index: 2;
+  }
+  .skills-section::before {
+    background-color: chocolate;
+    margin-top: -70px;
+    transform: translate(-20%) rotate(45deg);
+    left: 45%;
+  }
+  .skill-header h3 {
+    font-family: "Abril Fatface", cursive;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 60px;
+    text-align: left;
+    transform: translateX(10%);
+    color: white;
+  }
+
+  .skills-detail {
+    flex-direction: column;
+    z-index: 10000;
+  }
+
+  .skills-content {
+    width: auto;
+    margin: 10px 5px;
+  }
+  .skills__data_lang {
+    flex-direction: column;
+  }
+  .skills__lang_frontend,
+  .skills__lang_backend {
+    flex-basis: 100%;
+    margin: 20px 0;
+    width: auto;
+  }
+  .skills__data_lang {
+    margin-bottom: 20px;
+  }
+  .skills-section::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -3%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f2bf6c;
+    left: 40%;
+    z-index: -10;
+  }
+}
