@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .experience {
   z-index: 30;
   margin-top: -5px;
@@ -52,14 +56,14 @@
   flex-direction: column;
 }
 .experience__text h4 {
-  font-size: 33px;
+  font-size: 30px;
   font-family: "Grenze Gotisch", cursive;
   font-weight: 400;
   color: white;
 }
 
 .experience__text h5 {
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Grenze Gotisch", cursive;
   font-weight: 400;
   color: white;

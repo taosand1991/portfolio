@@ -22,7 +22,7 @@ function About() {
     <Fragment>
       <div id="about" className="about-page">
         <div className="imgContent">
-          <img src="/static/images/my_pic.jpg" alt="" />
+          <img src="./static/images/my_pic.jpg" alt="" />
         </div>
         <div className="textContent">
           <Tween to={{ translateX: "0" }} ease="power.out(1.2)">
@@ -79,7 +79,7 @@ function About() {
               delay={5.5}
             >
               <div className="cv-button">
-                <a href="/static/images/resume.docx" download="resume">
+                <a href="./static/images/resume.docx" download="resume">
                   <span>
                     <FaFileDownload />
                   </span>

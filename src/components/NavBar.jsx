@@ -20,7 +20,7 @@ const NavBar = () => {
     <Fragment>
       <nav>
         <div className="logo">
-          <img src="/static/images/logo.png" alt="" />
+          <img src="./static/images/logo.png" alt="" />
         </div>
         <ul>
           <li onClick={handleAbout}>About</li>

@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .skills-section {
   /* min-height: 100vh; */
   background-color: #f2bf6c;
@@ -95,11 +100,11 @@
   width: 80%;
   text-align: center;
   padding: 10px 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .Skills-text h4 {
-  font-size: 25px;
+  font-size: 20px;
 }
 .skills-content:hover {
   background-color: green;
@@ -183,7 +188,7 @@
 
 .skills__lang_frontend h4,
 .skills__lang_backend h4 {
-  font-size: 26px;
+  font-size: 21px;
   font-family: Roboto, san serif;
   font-style: oblique;
   text-align: center;
@@ -200,7 +205,7 @@
 .skills__items h4 {
   width: 100%;
   padding: 10px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
 }
 .skills__line {

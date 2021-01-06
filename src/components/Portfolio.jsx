@@ -23,7 +23,7 @@ function Portfolio() {
             <div className="row">
               <div className="portfolio-section">
                 <div className="portfolio-image">
-                  <img src="/static/images/logo.png" alt="" />
+                  <img src="./static/images/logo.png" alt="" />
                 </div>
                 <div className="portfolio-details">
                   <div className="portfolio-cont">
@@ -44,7 +44,7 @@ function Portfolio() {
               </div>
               <div className="portfolio-section">
                 <div className="portfolio-image">
-                  <img src="/static/images/logo.png" alt="" />
+                  <img src="./static/images/logo.png" alt="" />
                 </div>
                 <div className="portfolio-details">
                   <div className="portfolio-cont">
@@ -61,13 +61,13 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="port-ori-image">
-                    <img src="/static/images/media2.png" alt="" />
+                    <img src="./static/images/media2.png" alt="" />
                   </div>
                 </div>
               </div>
               <div className="portfolio-section">
                 <div className="portfolio-image">
-                  <img src="/static/images/logo.png" alt="" />
+                  <img src="./static/images/logo.png" alt="" />
                 </div>
                 <div className="portfolio-details">
                   <div className="portfolio-cont">
@@ -84,13 +84,13 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="port-ori-image">
-                    <img src="/static/images/loan.png" alt="" />
+                    <img src="./static/images/loan.png" alt="" />
                   </div>
                 </div>
               </div>
               <div className="portfolio-section">
                 <div className="portfolio-image">
-                  <img src="/static/images/logo.png" alt="" />
+                  <img src="./static/images/logo.png" alt="" />
                 </div>
                 <div className="portfolio-details">
                   <div className="portfolio-cont">
@@ -105,13 +105,13 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="port-ori-image">
-                    <img src="/static/images/sports.png" alt="" />
+                    <img src="./static/images/sports.png" alt="" />
                   </div>
                 </div>
               </div>
               <div className="portfolio-section">
                 <div className="portfolio-image">
-                  <img src="/static/images/logo.png" alt="" />
+                  <img src="./static/images/logo.png" alt="" />
                 </div>
                 <div className="portfolio-details">
                   <div className="portfolio-cont">
@@ -128,13 +128,13 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="port-ori-image">
-                    <img src="/static/images/school.png" alt="" />
+                    <img src="./static/images/school.png" alt="" />
                   </div>
                 </div>
               </div>
               <div className="portfolio-section">
                 <div className="portfolio-image">
-                  <img src="/static/images/logo.png" alt="" />
+                  <img src="./static/images/logo.png" alt="" />
                 </div>
                 <div className="portfolio-details">
                   <div className="portfolio-cont">
@@ -151,13 +151,13 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="port-ori-image">
-                    <img src="/static/images/loan.png" alt="" />
+                    <img src="./static/images/loan.png" alt="" />
                   </div>
                 </div>
               </div>
               <div className="portfolio-section">
                 <div className="portfolio-image">
-                  <img src="/static/images/logo.png" alt="" />
+                  <img src="./static/images/logo.png" alt="" />
                 </div>
                 <div className="portfolio-details">
                   <div className="portfolio-cont">
@@ -177,7 +177,53 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="port-ori-image">
-                    <img src="/static/images/nodeapp.png" alt="" />
+                    <img src="./static/images/nodeapp.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="portfolio-section">
+                <div className="portfolio-image">
+                  <img src="./static/images/logo.png" alt="" />
+                </div>
+                <div className="portfolio-details">
+                  <div className="portfolio-cont">
+                    <h5>Chat Application</h5>
+                    <h6>Tools Used</h6>
+                    <p>Django, JavaScript(React), HTML, CSS, Fontawesome</p>
+                    <div className="button">
+                      <AiOutlineLink
+                        style={{ textAlign: "center", marginLeft: 5 }}
+                      />
+                      <a href="https://legacychat.herokuapp.com/">
+                        Check it out
+                      </a>
+                    </div>
+                  </div>
+                  <div className="port-ori-image">
+                    <img src="./static/images/chat.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="portfolio-section">
+                <div className="portfolio-image">
+                  <img src="./static/images/logo.png" alt="" />
+                </div>
+                <div className="portfolio-details">
+                  <div className="portfolio-cont">
+                    <h5>Laravel Blog Application</h5>
+                    <h6>Tools Used</h6>
+                    <p>Laravel, JavaScript(Vuejs), HTML, CSS, Fontawesome, Bootstrap</p>
+                    <div className="button">
+                      <AiOutlineLink
+                        style={{ textAlign: "center", marginLeft: 5 }}
+                      />
+                      <a href="https://laravel-vue-app.herokuapp.com/">
+                        Check it out
+                      </a>
+                    </div>
+                  </div>
+                  <div className="port-ori-image">
+                    <img src="./static/images/laravel.png" alt="" />
                   </div>
                 </div>
               </div>

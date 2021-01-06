@@ -35,7 +35,7 @@ function Contact() {
           <div className="contact-desc">
             <FadeInUp>
               <div className="contact-image">
-                <img src="/static/images/logo2.JPG" alt="" />
+                <img src="./static/images/logo2.JPG" alt="" />
               </div>
             </FadeInUp>
             <FadeInLeft>

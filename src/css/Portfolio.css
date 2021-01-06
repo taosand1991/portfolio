@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .portfolio {
   display: flex;
   background-color: whitesmoke;
@@ -54,7 +59,7 @@
   flex-basis: 20%;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 10px;
   width: 100%;
   overflow: hidden;
   border-radius: 30px;
