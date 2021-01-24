@@ -5,7 +5,7 @@
 
 .skills-section {
   /* min-height: 100vh; */
-  background-color: #f2bf6c;
+  background-color: white;
   position: relative;
 }
 
@@ -15,7 +15,7 @@
   width: 100px;
   height: 100px;
   top: 0;
-  background-color: chocolate;
+  background-color: green;
   margin-top: -70px;
   transform: rotate(45deg);
   left: 50%;
@@ -28,7 +28,7 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: #f2bf6c;
+  background-color: #ffffff;
   right: 50%;
   z-index: 10;
 }
@@ -46,7 +46,7 @@
   margin-top: 60px;
   text-align: center;
   transform: translateX(50%);
-  color: white;
+  color: green;
 }
 
 .skills-detail {
@@ -260,7 +260,7 @@
     z-index: 2;
   }
   .skills-section::before {
-    background-color: chocolate;
+    background-color: #2BAE66FF;
     margin-top: -70px;
     transform: translate(-20%) rotate(45deg);
     left: 45%;
@@ -272,7 +272,7 @@
     margin-top: 60px;
     text-align: left;
     transform: translateX(10%);
-    color: white;
+    color: green;
   }
 
   .skills-detail {
@@ -304,7 +304,7 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: #f2bf6c;
+    background-color: white;
     left: 40%;
     z-index: -10;
   }

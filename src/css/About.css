@@ -4,7 +4,7 @@
 }
 
 .about-page {
-  background-color: black;
+  background-color: #2BAE66FF;
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -100,7 +100,9 @@
   background-color: transparent;
   color: white;
   margin-left: 20px;
-  border: 2px solid green;
+  /* border: 2px solid rgb(80, 204, 80); */
+  box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, 0.4),
+              1px 1px 9px 1px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
@@ -163,7 +165,7 @@
     padding: 10px 10px;
     color: white;
     margin-left: 0;
-    border: 2px solid green;
+    border: 2px solid #2BAE66FF;
     border-radius: 10px;
   }
   .cv-button a span {

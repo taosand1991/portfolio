@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import "../css/Navbar.css";
 
+
+
 const NavBar = () => {
   const handleAbout = () => {
     document.getElementById("about").scrollIntoView();
@@ -20,7 +22,7 @@ const NavBar = () => {
     <Fragment>
       <nav>
         <div className="logo">
-          <img src="./static/images/logo.png" alt="" />
+          <img src='static/images/logo.png' alt="no pic" />
         </div>
         <ul>
           <li onClick={handleAbout}>About</li>

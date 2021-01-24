@@ -37,6 +37,9 @@ function Contact() {
               <div className="contact-image">
                 <img src="./static/images/logo2.JPG" alt="" />
               </div>
+              <div className='contact-line'>
+                <div className='line'/>
+              </div>
             </FadeInUp>
             <FadeInLeft>
               <div className="contact-text">

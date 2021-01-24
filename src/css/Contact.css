@@ -64,6 +64,16 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+.contact-line .line{
+  width: 5px;
+  flex-basis: 20%;
+  position: relative;
+  height:300px;
+  margin-top: 50px;
+  background-color:#2BAE66FF;
+}
+
 .contact-text {
   flex-basis: 40%;
   display: flex;
@@ -153,16 +163,16 @@
 }
 
 .overlay.fb {
-  background-color: #3b5998;
+  background-color: #0b1b3d;
 }
 .overlay.tw {
-  background-color: #aab8c2 !important;
+  background-color: #0b6cb1 !important;
 }
 .overlay.in {
-  background-color: #fd1d1d;
+  background-color: #f00606;
 }
 .overlay.gt {
-  background-color: #c9510c;
+  background-color: #2c2927;
 }
 
 .contact-email {
@@ -294,5 +304,8 @@
   .contact-email .contact-share span {
     flex-basis: 15%;
     font-size: 20px;
+  }
+  .contact-line .line{
+    display: none;
   }
 }
