@@ -43,17 +43,7 @@ function Contact() {
             </FadeInUp>
             <FadeInLeft>
               <div className="contact-text">
-                {/* <p>
-                  <strong>
-                    Need a professional websites or management system?
-                  </strong>
-                  <br />
-                  <strong>Legacy Graphics</strong> is there to build that
-                  scaleable websites you have been wishing for at an affordable
-                  price in due time. At Legacy Graphics, our{" "}
-                  <strong>topmost priority</strong> is our client, making them
-                  happy and leaving good reviews has kept us going.
-                </p> */}
+                <p>I am available for full-time job opportunities.</p>
 
                 <div className="contact-email">
                   <div className="contact-share">
@@ -72,7 +62,7 @@ function Contact() {
                     <span>
                       <AiFillPhone />
                     </span>
-                    <h4>+#7062659246</h4>
+                    <h4>+37062659246</h4>
                   </div>
                 </div>
                 <div className="contact-social-links">

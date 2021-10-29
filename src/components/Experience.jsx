@@ -13,7 +13,7 @@ function Experience() {
             </div>
             <div className="experience__detail">
               <div className="experience__text">
-                <h4>Freelance</h4>
+                <h4>Ferrai World, Abu Dhabi</h4>
                 <h5>Web Developer | April 2018 - September 2021</h5>
                 <p>
                   Effectively multitasked and worked well with internal and
