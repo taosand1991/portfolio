@@ -42,12 +42,12 @@ function Skills() {
                     <div className="front-end">
                       <h4>Front End</h4>
                       <p>
-                        Vue.js, React.js, React-Native, HTML5, CSS, JavaScript
+                        Vue.js, React.js, React-Native, HTML5, CSS, JavaScript, Git
                       </p>
                     </div>
                     <div className="back-end">
                       <h4>Back End</h4>
-                      <p>Python, JavaScript, Golang, Java, Express, Node.js</p>
+                      <p>Python, JavaScript,PHP, Java, Express, Node.js, SQL, AWS</p>
                     </div>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ function Skills() {
                   </div>
                 </div>
                 <div className="skills__items">
-                  <h4>Golang</h4>
+                  <h4>PHP</h4>
                   <div className="skills__line">
                     <div className="skills__data golang"></div>
                   </div>

@@ -14,21 +14,22 @@ function Experience() {
             <div className="experience__detail">
               <div className="experience__text">
                 <h4>Freelance</h4>
-                <h5>Full Stack Developer | March 2018 - present</h5>
+                <h5>Web Developer | April 2018 - September 2021</h5>
                 <p>
-                  I create web apps to meet client needs, with more than a year
-                  of my experience as a developer, I have developed so many apps
-                  that can be of help to organizations and personal use. Such
-                  apps include: Weather app, Movies database, Sport App,
-                  Entertainment App. I work with few libraries such as React for
-                  front-end Application, Django for backend application. I work
-                  with Python and Javascript. I am quite capable of working as a
-                  team member, or independently. supervision.
+                  Effectively multitasked and worked well with internal and
+                  external teams. Remained knowledgeable in new standards,
+                  technologies, and trends in website development. Helped to
+                  achieve a consistent look and visual theme across the website
+                  by promoting uniform fonts, formatting, images, and layout.
+                  Remained dedicated to emerging technology and the latest
+                  digital marketing concepts. Worked with a proficient
+                  understanding of code conversion tools. Provided effective
+                  troubleshooting and remediation for web applications.
                 </p>
               </div>
               <div className="experience__text">
                 <h4>As-Salam Graphical and Computer Services</h4>
-                <h5>Graphic Designer | Jan 2017 - Dec 2019</h5>
+                <h5>Graphic Designer | Jan 2017 - Dec 2017</h5>
                 <p>
                   As a graphic designer, I communicate to clients about their
                   needs and designs, I plan on it and study the material and

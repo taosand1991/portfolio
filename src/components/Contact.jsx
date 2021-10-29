@@ -37,13 +37,13 @@ function Contact() {
               <div className="contact-image">
                 <img src="./static/images/logo2.JPG" alt="" />
               </div>
-              <div className='contact-line'>
-                <div className='line'/>
+              <div className="contact-line">
+                <div className="line" />
               </div>
             </FadeInUp>
             <FadeInLeft>
               <div className="contact-text">
-                <p>
+                {/* <p>
                   <strong>
                     Need a professional websites or management system?
                   </strong>
@@ -53,14 +53,14 @@ function Contact() {
                   price in due time. At Legacy Graphics, our{" "}
                   <strong>topmost priority</strong> is our client, making them
                   happy and leaving good reviews has kept us going.
-                </p>
+                </p> */}
 
                 <div className="contact-email">
                   <div className="contact-share">
                     <span>
                       <FaAddressCard />
                     </span>
-                    <h4>Ghantoot building, old shahama road, Abu Dhabi</h4>
+                    <h4>Sauletekio al.25, Vilnius, 10225</h4>
                   </div>
                   <div className="contact-share">
                     <span>
@@ -72,7 +72,7 @@ function Contact() {
                     <span>
                       <AiFillPhone />
                     </span>
-                    <h4>+971586310350</h4>
+                    <h4>+#7062659246</h4>
                   </div>
                 </div>
                 <div className="contact-social-links">

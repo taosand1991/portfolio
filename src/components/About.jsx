@@ -33,16 +33,12 @@ function About() {
           <Timeline
             target={
               <div className="text">
-                Full Stack developer and Graphic designer with over a year
-                experience that use his skills and knowledge to solve problem
-                arising from the Internet Technology world, I work with pace and
-                my ability to work around a team with little or no supervision
-                has been one of my greatest achievement. I create web
-                applications, mobile applications and software with digital
-                visualizations such as Python, JavaScript, React, React-native,
-                Vue, JQuery, HTML 5, CSS, Photoshop, Illustrator, Premier Pro,
-                After Effect and so much more. I am looking for challenging
-                opportunities, to work with teams and produce good results.
+                Experienced Software Developer adept in bringing forth expertise
+                in design, installation, testing, and maintenance of software
+                systems. Proficient in various platforms, languages. Experienced
+                with the latest cutting-edge development tools and procedures.
+                Able to effectively self-manage during independent projects, as
+                well as collaborate as part of a productive team.
               </div>
             }
           >
@@ -79,7 +75,7 @@ function About() {
               delay={5.5}
             >
               <div className="cv-button">
-                <a href="./static/images/resume.docx" download="resume">
+                <a href="./static/images/RESUME.pdf" download="resume">
                   <span>
                     <FaFileDownload />
                   </span>
