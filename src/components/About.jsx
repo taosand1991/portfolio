@@ -16,6 +16,7 @@ function About() {
         navbar.classList.remove("fixed");
       }
     };
+    return () => {};
   }, []);
 
   return (
@@ -75,7 +76,7 @@ function About() {
               delay={5.5}
             >
               <div className="cv-button">
-                <a href="./static/images/RESUME.pdf" download="resume">
+                <a href="./static/images/Taofeek.pdf" download="resume">
                   <span>
                     <FaFileDownload />
                   </span>
