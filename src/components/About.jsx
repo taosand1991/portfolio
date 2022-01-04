@@ -76,7 +76,7 @@ function About() {
               delay={5.5}
             >
               <div className="cv-button">
-                <a href="./static/images/Taofeek.pdf" download="resume">
+                <a href="./static/Taofeek.pdf" download="resume">
                   <span>
                     <FaFileDownload />
                   </span>
