@@ -212,7 +212,10 @@ function Portfolio() {
                   <div className="portfolio-cont">
                     <h5>Laravel Blog Application</h5>
                     <h6>Tools Used</h6>
-                    <p>Laravel, JavaScript(Vuejs), HTML, CSS, Fontawesome, Bootstrap</p>
+                    <p>
+                      Laravel, JavaScript(Vuejs), HTML, CSS, Fontawesome,
+                      Bootstrap
+                    </p>
                     <div className="button">
                       <AiOutlineLink
                         style={{ textAlign: "center", marginLeft: 5 }}
@@ -224,6 +227,33 @@ function Portfolio() {
                   </div>
                   <div className="port-ori-image">
                     <img src="./static/images/laravel.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="portfolio-section">
+                <div className="portfolio-image">
+                  <img src="./static/images/logo.png" alt="" />
+                </div>
+                <div className="portfolio-details">
+                  <div className="portfolio-cont">
+                    <h5>Booking Application with Nextjs</h5>
+                    <h6>Tools Used</h6>
+                    <p>
+                      {" "}
+                      JavaScript(Reactjs), HTML, CSS, Fontawesome, Chakra UI,
+                      Nextjs
+                    </p>
+                    <div className="button">
+                      <AiOutlineLink
+                        style={{ textAlign: "center", marginLeft: 5 }}
+                      />
+                      <a href="https://booking-next-app-taosand1991.vercel.app/">
+                        Check it out
+                      </a>
+                    </div>
+                  </div>
+                  <div className="port-ori-image">
+                    <img src="./static/images/booking.png" alt="" />
                   </div>
                 </div>
               </div>
