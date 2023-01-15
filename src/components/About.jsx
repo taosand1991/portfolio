@@ -23,7 +23,7 @@ function About() {
     <Fragment>
       <div id="about" className="about-page">
         <div className="imgContent">
-          <img src="./static/images/my_pic.jpg" alt="" />
+          <img src="./static/images/My_image.jpg" alt="" />
         </div>
         <div className="textContent">
           <Tween to={{ translateX: "0" }} ease="power.out(1.2)">
@@ -34,12 +34,14 @@ function About() {
           <Timeline
             target={
               <div className="text">
-                Experienced Software Developer adept in bringing forth expertise
-                in design, installation, testing, and maintenance of software
-                systems. Proficient in various platforms, languages. Experienced
-                with the latest cutting-edge development tools and procedures.
-                Able to effectively self-manage during independent projects, as
-                well as collaborate as part of a productive team.
+                Overall 3+ years of QA experience in Automation testing of Web, 
+                Mobile applications with specialization in Software Quality Assurance Testing, 
+                Software development, Software Test Automation Engineer and proficient 
+                in testing on API, Web based and Mobile Applications Extended expertise in
+                 QA and Automated Software Testing using Selenium, Cypress, WebdriverIo, 
+                 Playwright. Good programming knowledge of JavaScript, Typescript, NodeJS, 
+                 Reactjs, PostgreSQL. A versatile Engineer in Both Software Development 
+                 and Software Development in Test.
               </div>
             }
           >
@@ -57,16 +59,14 @@ function About() {
             </Tween>
             <Tween to={{ translateY: "0" }} delay={4}>
               <p>
-                I am a graduate of Agricultural Economics with background in
-                marketing. I later follow my passion to become a developer and
-                designer thereby using my skills to solve problems arising from
-                Internet Technology world. I design and create web applications
-                and mobile applications on my free time. I make great designs to
-                appeal to the visual world and as well write programmatic code
-                to suit my potential client needs. Currently, I am a freelancer
-                and looking forward to secure a full-time employment soon. I
-                have more than a year experience in developing web apps and
-                designing business cards, fliers, cover-art and so many more.
+                I am currently working as a Software Test Automation Engineer in one of the
+                leading companies in Eastern Europe (EPAM SYSTEM). I develop test automation
+                frameworks, create test plan and design test cases according to requirements. 
+                I have experience in Software Development using Reactjs, Nodejs, Typescript to 
+                build applications from scratch, I can work with backend development and frontend 
+                development. I am conversant with tools and technologies such as: Javascript, Typescript,
+                NodeJS, ReactJS, WebdriverIO, Cypress, Mocha, Chai, API Test, UI Test, CI/CD process.
+                I enjoy learning and watching soccer when not busy with work activities.
               </p>
             </Tween>
             <Tween
@@ -76,7 +76,7 @@ function About() {
               delay={5.5}
             >
               <div className="cv-button">
-                <a href="./static/Taofeek.pdf" download="resume">
+                <a href="./static/CV - Taofeek Adesina.pdf" download="resume">
                   <span>
                     <FaFileDownload />
                   </span>

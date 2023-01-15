@@ -32,6 +32,14 @@ nav {
   max-width: 100px;
 }
 
+.timezone {
+  text-align: center;;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 900;
+  color: #2BAE66FF;
+}
+
 .logo img {
   width: 80px;
 }
@@ -53,6 +61,11 @@ nav ul li {
   color: green;
   position: relative;
   width: 100%;
+}
+
+nav ul li.timezone {
+  margin-left: 0;
+  padding-left: 0;
 }
 
 nav ul li:before {
@@ -92,6 +105,10 @@ nav ul li:hover::before {
     padding: 0;
     background-color: transparent;
     z-index: 9999;
+  }
+
+  .timezone {
+    display: none;
   }
   .fixed {
     transition: 0.2s linear;

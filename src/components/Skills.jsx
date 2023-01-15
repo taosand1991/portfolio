@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Tween, Reveal } from "react-gsap";
-import { SiGraphcool, SiWebpack } from "react-icons/si";
-import { MdDeveloperMode } from "react-icons/md";
+import { SiGraphql, SiWebpack } from "react-icons/si";
+import { SiWebdriverio } from "react-icons/si";
 import "../css/Skills.css";
 
 function Skills() {
@@ -55,25 +55,24 @@ function Skills() {
               <div className="skills-content mobile-development">
                 <div className="skills-icon">
                   <span>
-                    <MdDeveloperMode />
+                    <SiWebdriverio />
                   </span>
                 </div>
                 <div className="Skills-text">
-                  <h4>Mobile Development</h4>
+                  <h4>Automation Development</h4>
                   <p>
-                    Building fast and responsive mobile applications has always
-                    been easy with legacy graphics
+                    UI, API, Unit and Integration test with different tools and latest technologies
                   </p>
                 </div>
                 <div className="skills-tools">
                   <h5>Tools</h5>
-                  <p>React-Native, Javascript, Node Js</p>
+                  <p>Typescript, Javascript, WebdriverIO, Cypress, Selenium, Postman, Insomnia, Mocha, Chai, CI/CD build up</p>
                 </div>
               </div>
               <div className="skills-content graphics-design">
                 <div className="skills-icon">
                   <span>
-                    <SiGraphcool />
+                    <SiGraphql />
                   </span>
                 </div>
                 <div className="Skills-text">
@@ -107,16 +106,16 @@ function Skills() {
                     <div className="skills__data javaScript"></div>
                   </div>
                 </div>
-                <div className="skills__items ">
-                  <h4>Java</h4>
-                  <div className="skills__line java">
-                    <div className="skills__data java"></div>
+                <div className="skills__items">
+                  <h4>NodeJS</h4>
+                  <div className="skills__line">
+                    <div className="skills__data golang"></div>
                   </div>
                 </div>
                 <div className="skills__items">
-                  <h4>PHP</h4>
+                  <h4>Typescript</h4>
                   <div className="skills__line">
-                    <div className="skills__data golang"></div>
+                    <div className="skills__data java"></div>
                   </div>
                 </div>
               </div>
@@ -135,13 +134,40 @@ function Skills() {
                   </div>
                 </div>
                 <div className="skills__items">
-                  <h4>React-Native</h4>
+                  <h4>Git</h4>
                   <div className="skills__line ">
                     <div className="skills__data react-native"></div>
                   </div>
                 </div>
                 <div className="skills__items">
                   <h4>CSS</h4>
+                  <div className="skills__line ">
+                    <div className="skills__data css"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="skills__lang_backend">
+                <h4>Automation Development</h4>
+                <div className="skills__items">
+                  <h4>WebdriverIO</h4>
+                  <div className="skills__line ">
+                    <div className="skills__data react"></div>
+                  </div>
+                </div>
+                <div className="skills__items">
+                  <h4>Cypress</h4>
+                  <div className="skills__line ">
+                    <div className="skills__data cypress"></div>
+                  </div>
+                </div>
+                <div className="skills__items">
+                  <h4>Chai</h4>
+                  <div className="skills__line ">
+                    <div className="skills__data react-native"></div>
+                  </div>
+                </div>
+                <div className="skills__items">
+                  <h4>Mocha</h4>
                   <div className="skills__line ">
                     <div className="skills__data css"></div>
                   </div>

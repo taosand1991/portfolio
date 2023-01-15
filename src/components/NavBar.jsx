@@ -1,9 +1,18 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import "../css/Navbar.css";
+import moment from 'moment'
 
 
 
 const NavBar = () => {
+  const [showTime, setShowTime] = useState('')
+
+  useEffect(() => {
+      setInterval(() => {
+        setShowTime(moment().format('MMMM Do YYYY, h:mm:ss a'))
+      }, 1000);
+  }, [])
+
   const handleAbout = () => {
     document.getElementById("about").scrollIntoView();
   };
@@ -18,11 +27,15 @@ const NavBar = () => {
   const handlePortFolio = () => {
     document.getElementById("portfolio").scrollIntoView({ behavior: "smooth" });
   };
+
   return (
     <Fragment>
       <nav>
         <div className="logo">
           <img src='static/images/logo.png' alt="no pic" />
+        </div>
+        <div className="timezone">
+          <p>{showTime}</p>
         </div>
         <ul>
           <li onClick={handleAbout}>About</li>

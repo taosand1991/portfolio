@@ -18,7 +18,7 @@ function Portfolio() {
         <Reveal>
           <FadeinRight>
             <div className="portfolio-page">
-              <h5>PortFolio Section</h5>
+              <h5>Portfolio Section</h5>
             </div>
             <div className="row">
               <div className="portfolio-section">
